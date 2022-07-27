@@ -1,0 +1,17 @@
+.default {
+    cursor: pointer;
+    background-color: greenyellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.red {
+    cursor: pointer;
+    border-radius: 5px;
+    background: orangered;
+    padding: 5px 10px;
+}
+.default:disabled {
+    cursor: default;
+    background-color: rgb(109, 255, 0);
+}

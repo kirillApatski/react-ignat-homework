@@ -1,0 +1,47 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.itemName {
+    width: 90px;
+    color: fuchsia;
+}
+.itemSkill {
+    color: red;
+}
+.containerBtn {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.btn {
+    padding: 5px;
+    width: 70px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    transition: 0.5s;
+}
+.btnActive {
+    padding: 5px;
+    width: 70px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: gold;
+    color: white;
+    transition: 0.5s;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: gold;
+    color: black;
+}
