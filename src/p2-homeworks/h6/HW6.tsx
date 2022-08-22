@@ -10,9 +10,17 @@ function HW6() {
         saveState<string>('editable-span-value', value)
     }
     const restore = () => {
-        // setValue()
+        setValue(restoreState<string>('editable-span-value', value))
     }
-
+    // const spanStyle = {
+    //     display: "inline-block",
+    //     width: "200px",
+    //     border: "1px solid black",
+    //     backgroundColor: "greenyellow",
+    //     padding: "5px",
+    //     borderRadius: "5px",
+    //     marginBottom: "10px",
+    // }
     return (
         <div>
             <hr/>
