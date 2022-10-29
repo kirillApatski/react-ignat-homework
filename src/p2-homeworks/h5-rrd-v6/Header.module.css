@@ -48,3 +48,7 @@
     color: red;
     transition: 0.5s;
 }
+
+.active {
+    border-bottom: 1px solid;
+}
