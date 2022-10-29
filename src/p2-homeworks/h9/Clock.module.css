@@ -1,0 +1,10 @@
+.showWrapp {
+    height: 30px;
+}
+.showTime {
+    font-weight: bold;
+    font-size: 18px;
+}
+.showDate {
+    color: greenyellow;
+}
