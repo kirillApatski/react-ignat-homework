@@ -19,13 +19,10 @@ const Request = () => {
             .catch(error => setResponseData(error.response ? error.response.data.errorText : error.message))
             .finally(() => setLoading(false))
     }
-
     const style = {
         display: 'inline-block',
         width: '150px'
     }
-
-
     return (
         <div>
             <SuperButton onClick={onClickHandler} disabled={loading}>Click me</SuperButton>
