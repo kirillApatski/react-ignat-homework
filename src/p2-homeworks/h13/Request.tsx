@@ -27,7 +27,13 @@ const Request = () => {
         <div>
             <SuperButton onClick={onClickHandler} disabled={loading}>Click me</SuperButton>
             <SuperCheckbox onChange={onChangeChecked}/>
-            <div>{!loading ? responseData : <img style={style} src={isLoading} alt="loading"/>}</div>
+            <div>
+                {
+                    !loading
+                        ? responseData
+                        : <img style={style} src={isLoading} alt="loading"/>
+                }
+            </div>
         </div>
     );
 };
